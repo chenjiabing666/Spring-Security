@@ -1,0 +1,11 @@
+server:
+  port: 8081
+spring:
+  # 模板引擎的配置，用于oauth2的授权页面自定义
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+    cache: false
+  mvc:
+    throw-exception-if-no-handler-found: true
+
